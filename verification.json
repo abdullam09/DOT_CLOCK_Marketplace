@@ -1,0 +1,72 @@
+{
+  "sizes": [
+    {
+      "size": "840x344",
+      "label": "9.288px",
+      "time": "10:08:36",
+      "fit": true
+    },
+    {
+      "size": "696x416",
+      "label": "11.232px",
+      "time": "10:08:36",
+      "fit": true
+    },
+    {
+      "size": "840x696",
+      "label": "14.9688px",
+      "time": "10:08:36",
+      "fit": true
+    },
+    {
+      "size": "696x840",
+      "label": "11.232px",
+      "time": "10:08:36",
+      "fit": true
+    },
+    {
+      "size": "1688x696",
+      "label": "18.792px",
+      "time": "10:08:36",
+      "fit": true
+    },
+    {
+      "size": "696x1688",
+      "label": "11.232px",
+      "time": "10:08:36",
+      "fit": true
+    },
+    {
+      "size": "2536x696",
+      "label": "18.792px",
+      "time": "10:08:36",
+      "fit": true
+    },
+    {
+      "size": "696x2536",
+      "label": "11.232px",
+      "time": "10:08:36",
+      "fit": true
+    }
+  ],
+  "checks": [
+    "12/24 hour",
+    "midnight and date rollover",
+    "IANA time zone",
+    "invalid zone fallback",
+    "seconds/date toggles",
+    "colors/transparency/dot controls",
+    "blink and reduced motion",
+    "media transforms and clearing",
+    "no browser errors"
+  ],
+  "note": "Browser tests simulate iCUE property globals and callbacks. Physical iCUE device validation remains to be performed.",
+  "marketplaceChecks": [
+    "5 color/background combinations including identical colors: >=4.5:1 for text/accent/metadata",
+    "Opaque content backing preserves contrast at 100% background transparency",
+    "Remote URLs, network shares and SVG rejected for image selection",
+    "Missing image clears to solid background",
+    "Async translations and expanded messages fit all eight sizes",
+    "No outbound HTTP requests or script errors"
+  ]
+}
